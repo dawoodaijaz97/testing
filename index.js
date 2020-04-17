@@ -22,6 +22,6 @@ kc.requestHandler('/request', {
     transfer: {
         complete: ['*'],
         ignore: [],
-        preview: ['*'],
+        preview: [],
     }
 }, handleRequest);
